@@ -1,6 +1,6 @@
-## InterviewSummary
+# InterviewSummary
 
-### vue2生命周期
+## vue2生命周期
 
 ```javascript
 // 选项式API
@@ -14,7 +14,7 @@ beforeDestroy 实例销毁前：data和methods，指令、过滤器等都处于�
 destroyed    实例销毁后：data和methods，指令、过滤器等处于不可用状态，组件已经被销毁。
 ```
 
-### vuex五个属性
+## vuex五个属性
 
 ```javascript
 state：数据源，主要存储数据；
@@ -30,14 +30,14 @@ modules：主要是模块化，也就是每一个模块都有自己的state、ge
 因为当data是函数时，组件实例化的时候这个函数会被调用，返回一个对象，计算机会给这个对象分配一个内存地址，实例化几次就分配几个内存地址，它们的地址都不一样，所以每个组件中的数据互不影响；
 ```
 
-### HTTP和HTTPS
+## HTTP和HTTPS
 
 ```javascript
 HTTP协议传输的数据都是未加密的，也就是明文传输，因此HTTP协议不适合传输一些敏感信息，比如信用卡、密码等支付信息；
 为了解决这一缺陷，HTTPS在HTTP的基础上加入了SSL协议，SSL依靠证书来验证服务器的身份，并且为浏览器和服务器之间的通信加密。
 ```
 
-### 闭包
+## 闭包
 
 ```javascript
 闭包就是能够读取其他函数内部变量的函数;
@@ -48,7 +48,7 @@ HTTP协议传输的数据都是未加密的，也就是明文传输，因此HTTP
 缺点：消耗内存、使用不当会造成内存溢出问题；
 ```
 
-### var let const 区别
+## var let const 区别
 
 ```javascript
 相同点：var、let、const都可以声明变量；
@@ -59,7 +59,7 @@ HTTP协议传输的数据都是未加密的，也就是明文传输，因此HTTP
 	4、var没有块级作用域，而ler、const有块级作用域；
 ```
 
-### H5新增语义化标签
+## H5新增语义化标签
 
 ```javascript
 // article --- 内容标签
@@ -68,14 +68,14 @@ HTTP协议传输的数据都是未加密的，也就是明文传输，因此HTTP
 1、nav、header、footer、article、section、aside等；
 ```
 
-### 什么是原型链
+## 什么是原型链
 
 ```javascript
 原型链：就是实例对象和原型对象之间的链接,每一个对象都有原型,原型本身又是对象,所以原型又有原型,以此类推形成一个链式结构；
 所以当一个对象在查找一个属性的时候，自身没有就会根据_proto _向它的原型进行查找，如果都没有，则向它的原型的原型继续查找，直到查到Object.prototype.proto_为null，这样也就形成了原型链；
 ```
 
-### 跨域
+## 跨域
 
 ```javascript
 跨域：主要是由浏览器的同源策略造成的，同源也就是域名、协议、端口相同；
