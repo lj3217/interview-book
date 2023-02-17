@@ -1,0 +1,23 @@
+_sidebar.md     =>   管理侧边栏
+index.html      =>   入口文件 
+README.md       =>   主页内容渲染
+.nojekyll       =>   用于阻止GitHub pages会忽略掉下划线开头的文件
+_coverpage.md   =>   渲染封面
+
+直接编辑 book/README.md 就能更新网站内容，当然也可以写多个页面。
+
+
+1.安装 docsify-cli 
+推荐安装 docsify-cli 工具，可以方便创建本地预览文档网站
+
+npm i docsify-cli -g     // -g 是全局安装的意思
+
+
+2.创建项目
+
+docsify init ./docs   // docs 是项目的名字
+
+
+3.启动项目
+
+docsify serve     //本地预览
